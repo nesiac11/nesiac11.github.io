@@ -7,52 +7,55 @@ body {
     transition: background 0.5s, color 0.5s;
 }
 
-/* 🌸 Light Mode */
+/* 🌸 Light Mode Background */
 body {
     background: linear-gradient(to bottom, #f3d7df, #dbc1c7);
-    color: #4a2c3a;
+    color: #5a2d3a;
 }
 
-/* 🌌 Dark Mode */
+/* 🌌 Dark Mode Background */
 body.dark-mode {
     background: linear-gradient(to bottom, #1e1020, #3b2245);
     color: #e0d6eb;
 }
 
-/* 🔥 Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+/* 🏷️ Text Improvements */
+h1, h2, p, a {
+    color: #c06b94; /* Darker dusty pink */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-/* 🌙 Dark Mode Toggle */
-#dark-mode-toggle {
-    background: none;
-    border: none;
-    font-size: 1.5em;
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-#dark-mode-toggle:hover {
-    transform: scale(1.2);
-}
-
-/* 📖 Sections */
+/* 📜 Section Background (for better contrast) */
 section {
-    padding: 40px;
-    margin: 20px;
+    background: rgba(255, 255, 255, 0.5); /* Less transparent */
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(5px);
-   
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Mode Section */
+body.dark-mode section {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* 📖 Story Links */
+a {
+    color: #902850;
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #ff87b3;
+    text-shadow: 0 0 10px rgba(255, 135, 179, 0.6);
+}
+
+/* Dark Mode Link Colors */
+body.dark-mode a {
+    color: #d8a8e6;
+}
+
+body.dark-mode a:hover {
+    color: #f3c1ff;
+}
