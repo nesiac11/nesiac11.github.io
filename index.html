@@ -3,43 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nea Lunabelle</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <title>Nea Lunabelle's Story World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Playfair+Display:wght@500&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #e0caff;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 50px auto;
+            max-width: 600px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            border: 2px solid #d4a5f3;
+        }
+        h1 {
+            font-family: 'Handlee', cursive;
+            font-size: 28px;
+            color: #2a1a4a;
+        }
+        p {
+            font-size: 18px;
+            color: #1b1035;
+        }
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #3b185f;
+        }
+        .story-link, .social-link {
+            font-size: 18px;
+            text-decoration: none;
+            color: #2a1a4a;
+            font-weight: bold;
+        }
+        .story-link:hover, .social-link:hover {
+            color: #d98eff;
+        }
+        .emoji {
+            font-size: 22px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Nea Lunabelle</h1>
-        <button id="dark-mode-toggle">🌙</button>
-    </header>
-    
-    <main>
-        <section class="intro">
-            <h2>Step into the world of Nea Lunabelle...</h2>
-            <p>A realm of dreams, mystery, and untold stories.</p>
-        </section>
+    <div class="container">
+        <h1>✨ Welcome to Nea Lunabelle's Story World ✨</h1>
+        <p>Hi, I'm Nea Lunabelle, a storyteller who loves creating whimsical adventures. Explore my works below!</p>
         
-        <section class="stories">
-            <h2>📖 My Stories</h2>
-            <ul>
-                <li><a href="celia-adventure/">Celia’s Adventure</a></li>
-                <li><a href="#">Future Story (Coming Soon)</a></li>
-            </ul>
-        </section>
-
-        <section class="about">
-            <h2>💫 About</h2>
-            <p>A writer who dreams beyond the stars and whispers tales into the wind...</p>
-        </section>
-
-        <section class="contact">
-            <h2>📩 Contact</h2>
-            <p>Find me on social media: <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Nea Lunabelle. All rights reserved.</p>
-    </footer>
+        <p class="section-title">📖 My Stories</p>
+        <p>✨ <a href="#" class="story-link">Celia’s Adventure</a></p>
+        <p>(More stories coming soon...)</p>
+        
+        <p class="section-title">🌎 Connect with Me</p>
+        <p>
+            <a href="#" class="social-link">Wattpad</a> | 
+            <a href="#" class="social-link">Medium</a> | 
+            <a href="#" class="social-link">Instagram</a>
+        </p>
+    </div>
 </body>
 </html>
