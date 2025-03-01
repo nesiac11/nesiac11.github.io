@@ -3,77 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nea Lunabelle - Storyteller</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Spectral+SC&display=swap');
-        body {
-            background: linear-gradient(to bottom, #2e1a47, #a97892);
-            font-family: 'Spectral SC', serif;
-            text-align: center;
-            color: #f8e8e8;
-            padding: 50px;
-            background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png');
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            border-radius: 15px;
-            background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(8px);
-        }
-        h1 {
-            font-family: 'Marcellus', serif;
-            font-size: 2.8em;
-            color: #fbd4e7;
-            text-shadow: 0 0 8px rgba(255, 200, 255, 0.6);
-        }
-        p {
-            font-size: 1.2em;
-            color: #fbeaf2;
-        }
-        .story-links a {
-            display: block;
-            font-size: 1.2em;
-            margin: 10px;
-            color: #ffd1dc;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-        .story-links a:hover {
-            text-decoration: underline;
-            color: #ffb3c6;
-        }
-        .social-links a {
-            margin: 10px;
-            font-size: 1.5em;
-            color: #fbd4e7;
-            text-decoration: none;
-            transition: 0.3s;
-        }
-        .social-links a:hover {
-            color: #ffb3c6;
-        }
-    </style>
+    <title>Nea Lunabelle</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to the World of Nea Lunabelle 🌙✨</h1>
-        <p>A storyteller wandering through dreams and galaxies. Explore my tales below.</p>
+    <header>
+        <h1>Nea Lunabelle</h1>
+        <button id="dark-mode-toggle">🌙</button>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>Step into the world of Nea Lunabelle...</h2>
+            <p>A realm of dreams, mystery, and untold stories.</p>
+        </section>
         
-        <div class="story-links">
+        <section class="stories">
             <h2>📖 My Stories</h2>
-            <a href="celia-adventure/">✨ Celia's Adventure</a>
-            <a href="#">(More stories coming soon...)</a>
-        </div>
-        
-        <div class="social-links">
-            <h2>🌌 Connect with Me</h2>
-            <a href="#">Wattpad</a> | <a href="#">Medium</a> | <a href="#">Instagram</a>
-        </div>
-    </div>
+            <ul>
+                <li><a href="celia-adventure/">Celia’s Adventure</a></li>
+                <li><a href="#">Future Story (Coming Soon)</a></li>
+            </ul>
+        </section>
+
+        <section class="about">
+            <h2>💫 About</h2>
+            <p>A writer who dreams beyond the stars and whispers tales into the wind...</p>
+        </section>
+
+        <section class="contact">
+            <h2>📩 Contact</h2>
+            <p>Find me on social media: <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nea Lunabelle. All rights reserved.</p>
+    </footer>
 </body>
 </html>
