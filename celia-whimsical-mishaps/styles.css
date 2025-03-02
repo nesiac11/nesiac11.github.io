@@ -1,0 +1,13 @@
+/* style.css */
+body {
+    font-family: 'Comic Sans MS', cursive;
+    color: teal;
+}
+
+h1 {
+    color: purple;
+}
+
+.center {
+    text-align: center;
+}
