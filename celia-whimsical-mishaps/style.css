@@ -1,4 +1,5 @@
 /* style.css */
+
 body {
     font-family: 'Comic Sans MS', cursive;
     color: teal;
@@ -6,8 +7,25 @@ body {
 
 h1 {
     color: purple;
+    text-align: center;
+}
+
+.cover-image {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 .center {
     text-align: center;
+}
+
+.about-author {
+    font-family: 'Comic Sans MS', cursive;
+    color: pink;
+}
+
+.thank-you {
+    font-size: 18px;
+    color: coral;
 }
