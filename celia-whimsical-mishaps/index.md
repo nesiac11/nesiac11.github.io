@@ -4,7 +4,7 @@ author: "Nea Lunabelle"
 date: "2025-03-02"
 output: 
   html_document:
-    css: "styles.css"
+    css: "celia-styles.css"
 ---
 
 # 🌟 Celia's Whimsical Mishaps 🌟
