@@ -12,9 +12,11 @@ output:
 <img src="cover-celia.jpg" style="width: 50%;" alt="Cover Image">
 
 ## ✨ Table of Contents ✨
-- [Chapter 1](chapter1.html) 📖
-- [Chapter 2](chapter2.html) 📚
-- [Chapter 3](chapter3.html) 📘
+<div class="chapter-list">
+    <a href="chapter1.html" class="chapter-btn">📖 Chapter 1</a>
+    <a href="chapter2.html" class="chapter-btn">📚 Chapter 2</a>
+    <a href="chapter3.html" class="chapter-btn">📘 Chapter 3</a>
+</div>
 
 ## 🌈 About the Author 🌈
 Hi! I'm Nea Lunabelle, the author of this adorable book. I love creating whimsical stories that bring joy and wonder to readers. 🥰
