@@ -12,10 +12,10 @@ output:
 <img src="cover-celia.jpg" style="width: 50%;" alt="Cover Image">
 
 ## ✨ Table of Contents ✨
-<div class="chapter-list">
-    <a href="chapter1.html" class="chapter-btn">📖 Chapter 1</a>
-    <a href="chapter2.html" class="chapter-btn">📚 Chapter 2</a>
-    <a href="chapter3.html" class="chapter-btn">📘 Chapter 3</a>
+<div style="display: flex; gap: 15px; justify-content: center;">
+    <a href="chapter1.md">📖 Chapter 1</a><br>
+    <a href="chapter2.md">📚 Chapter 2</a><br>
+    <a href="chapter3.md">📘 Chapter 3</a><br>
 </div>
 
 ## 🌈 About the Author 🌈
