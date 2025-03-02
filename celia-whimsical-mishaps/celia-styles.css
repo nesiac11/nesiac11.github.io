@@ -1,28 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif; /* Change to any preferred font */
-  color: #333;
-  line-height: 1.6;
-  background-color: #fdf7f2; /* Soft pastel background */
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf0; /* Soft beige for a cozy feel */
+    color: #5a3570; /* Soft purple text */
+    text-align: center;
+    padding: 20px;
 }
 
-h1, h2, h3 {
-  font-family: 'Poppins', sans-serif;
-  color: #6a329f; /* Soft purple */
-  text-align: center;
+h1, h2 {
+    font-weight: bold;
+    color: #7834a5; /* Darker purple */
 }
 
-p {
-  font-size: 18px;
+h2 {
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f4c2c2; /* Cute pastel underline */
 }
 
-/* Style links */
-a {
-  color: #ff6f61;
-  text-decoration: none;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-a:hover {
-  text-decoration: underline;
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #e44d26;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Improve section spacing */
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
 }
