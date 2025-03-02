@@ -5,9 +5,9 @@ date: "2025-03-02"
 output: html_document
 ---
 
-# 🌟 Welcome to My Book 🌟
+# 🌟 Celia's Whimsical Mishaps 🌟
 
-![Cover Image](cover-celia.jpg)
+<img src="cover-celia.jpg" style="width: 50%;" alt="Cover Image">
 
 ## ✨ Table of Contents ✨
 - [Chapter 1](chapter1.html) 📖
