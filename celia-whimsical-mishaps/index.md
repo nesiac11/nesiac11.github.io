@@ -7,7 +7,7 @@ output: html_document
 
 # 🌟 Welcome to My Book 🌟
 
-![Cover Image](path/to/your/cover-image.jpg)
+![Cover Image](nesiac11.github.io/celia-whimsical-mishaps/cover celia.jpg)
 
 ## ✨ Table of Contents ✨
 - [Chapter 1](chapter1.html) 📖
