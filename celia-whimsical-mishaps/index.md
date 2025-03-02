@@ -9,7 +9,7 @@ output: html_document
 
 <h1 class="center">🌟 Celia's Whimsical Mishaps 🌟</h1>
 
-<img src="cover-celia.jpg" alt="Cover Image" class="center" style="width: 50%;">
+<img src="cover-celia.jpg" alt="Cover Image" class="cover-image">
 
 ## ✨ Table of Contents ✨
 - [Chapter 1](chapter1.html) 📖
@@ -17,7 +17,9 @@ output: html_document
 - [Chapter 3](chapter3.html) 📘
 
 ## 🌈 About the Author 🌈
-Hi! I'm Nea Lunabelle, the author of this adorable book. I love creating whimsical stories that bring joy and wonder to readers. 🥰
+<p class="center about-author">
+   Hi! I'm Nea Lunabelle, the author of this adorable book. I love creating whimsical stories that bring joy and wonder to readers. 🥰
+</p>
 
 ## 🧸 Additional Resources 🧸
 - [GitHub Repository](https://github.com/your-username/your-repository) 💻
@@ -25,4 +27,6 @@ Hi! I'm Nea Lunabelle, the author of this adorable book. I love creating whimsic
 
 ---
 
-Thank you for visiting! 🐱💖
+<p class="center thank-you">
+   Thank you for visiting! 🐱💖
+</p>
