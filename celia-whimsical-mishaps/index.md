@@ -7,7 +7,7 @@ output: html_document
 
 <link rel="stylesheet" type="text/css" href="style.css">
 
-<h1 class="center">🌟 Welcome to My Book 🌟</h1>
+<h1 class="center">🌟 Celia's Whimsical Mishaps 🌟</h1>
 
 <img src="cover-celia.jpg" alt="Cover Image" class="center" style="width: 50%;">
 
@@ -17,7 +17,7 @@ output: html_document
 - [Chapter 3](chapter3.html) 📘
 
 ## 🌈 About the Author 🌈
-Hi! I'm [Your Name], the author of this adorable book. I love creating whimsical stories that bring joy and wonder to readers. 🥰
+Hi! I'm Nea Lunabelle, the author of this adorable book. I love creating whimsical stories that bring joy and wonder to readers. 🥰
 
 ## 🧸 Additional Resources 🧸
 - [GitHub Repository](https://github.com/your-username/your-repository) 💻
