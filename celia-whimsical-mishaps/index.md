@@ -2,7 +2,9 @@
 title: "Celia's Whimsical Mishaps"
 author: "Nea Lunabelle"
 date: "2025-03-02"
-output: html_document
+output: 
+  html_document:
+    css: "styles.css"
 ---
 
 # 🌟 Celia's Whimsical Mishaps 🌟
