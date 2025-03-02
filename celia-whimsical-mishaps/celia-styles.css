@@ -45,3 +45,21 @@ section {
     padding: 15px;
     border-radius: 10px;
 }
+.chapter-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.chapter-btn {
+    background-color: #ffcccb;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #5a3570;
+    font-weight: bold;
+}
+
+.chapter-btn:hover {
+    background-color: #ffb6c1;
+}
