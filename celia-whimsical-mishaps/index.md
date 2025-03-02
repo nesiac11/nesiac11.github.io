@@ -6,7 +6,7 @@ output:
   html_document:
     css: "celia-styles.css"
 ---
-
+<link rel="stylesheet" type="text/css" href="celia-styles.css">
 # 🌟 Celia's Whimsical Mishaps 🌟
 
 <img src="cover-celia.jpg" style="width: 50%;" alt="Cover Image">
