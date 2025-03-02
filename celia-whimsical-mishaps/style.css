@@ -1,11 +1,13 @@
-/* style.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url ('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Indie+Flower&display=swap');
 body {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'IM Fell English', cursive;
     color: teal;
+    text-align: center;
 }
 
 h1 {
+    font-family: 'Indie Flower', cursive;
     color: purple;
     text-align: center;
 }
